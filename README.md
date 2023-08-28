@@ -19,6 +19,8 @@ npm install @prisma/client
 npx prisma db pull
 ```
 
+Change .env db_name
+
 ## Browse your data
 
 Start server on `http://localhost:5555`:
