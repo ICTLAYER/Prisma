@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Prisma + MySQL 8
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -7,29 +7,24 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 Make sure to install the dependencies:
 
 ```bash
-# npm
+# Nuxt 3
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
+# Prisma
+npm install prisma --save-dev
+npx prisma init
+npx prisma generate
+npx prisma
+npx prisma db pull
 ```
 
-## Development Server
+## Browse your data
 
-Start the development server on `http://localhost:3000`:
+Start server on `http://localhost:5555`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
+# Browse your data
+npx prisma studio
 ```
 
 ## Production
