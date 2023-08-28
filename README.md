@@ -1,6 +1,6 @@
 # Nuxt 3 + Prisma + MySQL 8
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the [Nuxt 3 + Prisma documentation](https://www.prisma.io/docs/reference/api-reference/command-reference) to learn more.
 
 ## Setup
 
@@ -14,7 +14,7 @@ npm install
 npm install prisma --save-dev
 npx prisma init
 npx prisma generate
-npx prisma
+npm install @prisma/client
 npx prisma db pull
 ```
 
