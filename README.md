@@ -13,6 +13,7 @@ npm install
 # Prisma
 npm install prisma --save-dev
 npx prisma init
+npm install typescript ts-node @types/node --save-dev
 npx prisma generate
 npm install @prisma/client
 npx prisma db pull
