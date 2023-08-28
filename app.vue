@@ -3,11 +3,6 @@ import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient({})
 
-// const invoices = await Prisma.invoice.findMany({
-//   orderBy: {
-//     invoice_id: 'asc',
-//   },
-// })
 const invoices = await prisma.invoice.findMany({
   orderBy: {
     invoice_id: 'desc',
