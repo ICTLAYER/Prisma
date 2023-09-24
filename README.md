@@ -1,4 +1,4 @@
-# Nuxt 3 + Prisma + MySQL 8
+# Nuxt 3 + Prisma ORM + MySQL 8
 
 Look at the [Nuxt 3 + Prisma documentation](https://www.prisma.io/docs/reference/api-reference/command-reference) to learn more.
 
